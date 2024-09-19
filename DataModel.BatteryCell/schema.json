@@ -1,0 +1,89 @@
+{
+    "$schema": "http://json-schema.org/schema#",
+    "$schemaVersion": "0.0.1",
+    "$id": "https://smart-data-models.github.io/dataModel.Energy/BatteryCell/schema.json",
+    "title": "Smart Data Models - Energy / BatteryCell",
+    "description": "Battery cell data",
+    "modelTags": "",
+    "derivedFrom": "",
+    "license": "https://smart-data-models.github.io/dataModel.Energy/BatteryCell/LICENSE.md",
+    "type": "object",
+    "allOf": [
+      {
+        "$ref": "https://smart-data-models.github.io/data-models/common-schema.json#/definitions/GSMA-Commons"
+      },
+      {
+        "$ref": "https://smart-data-models.github.io/data-models/common-schema.json#/definitions/Location-Commons"
+      },
+      {
+        "properties": {
+          "type": {
+            "type": "string",
+            "enum": [
+              "BatteryCell"
+            ],
+            "description": "Property. It must be equal to `BatteryCell`."
+          },
+          "dateManufactured": {
+            "type": "string",
+            "format": "date-time",
+            "description": "Property. Model:'http://schema.org/DateTime'. The date of manufacture"
+          },
+          "dateInstalled": {
+            "type": "string",
+            "format": "date-time",
+            "description": "Property. Model:'http://schema.org/DateTime'. The date installed to battery pack or Device"
+          },
+          "energyExtracted": {
+            "type": "number",
+            "minimum": 0,
+            "description": "Property. Model:'https://schema.org/Number'. Units:'kilowatt hour (kWh)'. Total energy extracted i.e. consumed since metering started (since `dateInstalled`)."
+          },
+          "energyCharged": {
+            "type": "number",
+            "minimum": 0,
+            "description": "Property. Model:'https://schema.org/Number'. Units:'kilowatt hour (kWh)'. Total energy charged to the battery cell since metering started (since `dateInstalled`)."
+          },
+          "voltage": {
+            "type": "number",
+            "minimum": 0,
+            "description": "Property. Model:'https://schema.org/Number'. Units:'volt (V)'. Cell voltage at the moment of `observedAt` time"
+          },
+          "current": {
+            "type": "number",
+            "minimum": 0,
+            "description": "Property. Model:'https://schema.org/Number'. Units:'ampere (A)'. Discharge(negative)/charge(positive) at the moment of `observedAt` time"
+          },
+          "currentCapacity": {
+            "type": "number",
+            "minimum": 0,
+            "description": "Property. Model:'https://schema.org/Number'. Units:'ampere-hour (Ah)'. Total energy imported i.e. consumed (with regards to apparent power) since the metering start date (`dateEnergyMeteringStarted`)"
+          },
+          "originalCapacity": {
+            "type": "number",
+            "minimum": 0,
+            "description": "Property. Model:'https://schema.org/Number'. Units:'kilovolt-ampere-hour (Ah)'. Total energy imported i.e. consumed (with regards to apparent power) since the metering start date (`dateEnergyMeteringStarted`)"
+          },
+          "resistance": {
+            "type": "number",
+            "minimum": 0,
+            "description": "Property. Model:'https://schema.org/Number'. Units:'ohm (Ohm)'. Cell internal resistance at the moment of `observedAt` time"
+          },
+          "remainingCapacity": {
+            "type": "number",
+            "minimum": 0,
+            "description": "Property. Model:'https://schema.org/Number'. Units:'percentage (%)'. State-of-heath of the battery cell"
+          },
+          "remainingCharge": {
+            "type": "number",
+            "minimum": 0,
+            "description": "Property. Model:'https://schema.org/Number'. Units:'percentage (%)'. Total energy exported since metering started (since `dateEnergyMeteringStarted`)."
+          }
+        }
+      }
+    ],
+    "required": [
+      "id",
+      "type"
+    ]
+  }
