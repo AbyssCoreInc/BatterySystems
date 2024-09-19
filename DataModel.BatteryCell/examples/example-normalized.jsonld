@@ -1,0 +1,52 @@
+{
+    "id": "urn:ngsi-ld:dataModel:id:UCFJ:79242300", 
+    "dateCreated": {
+        "type": "Property", 
+        "value": {
+            "@type": "DateTime", 
+            "@value": "1989-01-02T06:04:19Z"
+        }
+    }, 
+    "dateModified": {
+        "type": "Property", 
+        "value": {
+            "@type": "DateTime", 
+            "@value": "1991-05-15T20:28:01Z"
+        }
+    }, 
+    "source": {
+        "type": "Property", 
+        "value": "Others particular friend concern those. Explain government yourself small. Appear worker main reveal game yourself though."}, 
+    "name": {"type": "Property", "value": "Visit health TV pay act sort. Record"},
+    "alternateName": {"type": "Property", "value": "Him already ago eye may fund both. Market project hap"},
+    "description": {"type": "Property", "value": "Against situation focus be billion ball. Stuff agree behavior control left."},
+    "dataProvider": {"type": "Property", "value": "Range security the benefit old available. Process tree study home tough dark power simple."},
+    "owner": {"type": "Property", "value": ["urn:ngsi-ld:dataModel:items:FUQT:21262234", "urn:ngsi-ld:dataModel:items:BIPD:58941917"]}, 
+    "seeAlso": {"type": "Property", "value": ["urn:ngsi-ld:dataModel:items:CIJS:44962213"]},
+    "location": {"type": "GeoProperty", "value": {"type": "Point", "coordinates": [-28.005839, 172.926578]}}, 
+    "address": {"type": "Property", "value": {"streetAddress": "Myself anything daughter. Store protect perhaps power. Speak top only allow wh", "addressLocality": "Father quality te", "addressRegion": "Affect significant tree without. Place network across hear woman sure allow. Gas whom member my issue. Wind alone teacher.", "addressCountry": "Internat",
+    "postalCode": "Million still business. Economic should human assume network bring pick.",
+    "postOfficeBoxNumber": "Realize purpose notice strong whom risk article. Within half general major huge history.", "streetNr": "Into church small base these should. Control today artist drug individual TV statement. Because design near offer side church.",
+    "district": "Always Mrs food race fight science. Performance also yeah pass. Save decade issue white serve."}},
+    "areaServed": {"type": "Property", "value": "Thought magazine least save entire. True theory gas genera"}, "type": "BatteryCell", 
+    "dateManufactured": {"type": "Property", "value": {"@type": "DateTime", "@value": "2011-04-02T12:57:12Z"}},
+    "dateInstalled": {"type": "Property", "value": {"@type": "DateTime", "@value": "1976-01-06T17:31:31Z"}},
+    "energyExtracted": {"type": "Property", "value": 387.3},
+    "energyCharged": {"type": "Property", "value": 745.2}, 
+    "voltage": {"type": "Property", "value": 499.7}, "current": {"type": "Property", "value": 770.6},
+        "currentCapacity": {"type": "Property", "value": 694.8}, "originalCapacity": {"type": "Property", "value": 429.0
+    },
+    "resistance": {
+        "type": "Property", 
+        "value": 512.8
+    }, 
+    "remainingCapacity": {
+        "type": "Property", 
+        "value": 17.7
+    }, 
+    "remainingCharge": {
+        "type": "Property", 
+        "value": 491.1
+    }, 
+    "@context": ["https://smartdatamodels.org/context.jsonld"]
+}
