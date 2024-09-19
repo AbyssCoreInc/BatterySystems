@@ -1,0 +1,15 @@
+{
+    "id": "BatteryCell:cell1",
+    "type": "BatteryCell", 
+    "dateManufactured": "2001-12-10T04:31:54Z", 
+    "dateInstalled": "1971-12-01T19:22:45Z", 
+    "energyExtracted": 490.3, 
+    "energyCharged": 516.2, 
+    "voltage": 753.1, 
+    "current": 329.0, 
+    "currentCapacity": 229.9, 
+    "originalCapacity":227.3, 
+    "resistance": 162.1,
+    "remainingCapacity": 995.4, 
+    "remainingCharge": 460.7, 
+}
