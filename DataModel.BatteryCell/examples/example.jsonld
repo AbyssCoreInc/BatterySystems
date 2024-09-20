@@ -1,14 +1,15 @@
 {
     "type": "BatteryCell", 
     "dateManufactured": {"type": "Property", "value": {"@type": "DateTime", "@value": "2001-12-10T04:31:54Z"}}, 
-    "dateInstalled": {"type": "Property", "value": {"@type": "DateTime", "@value": "1971-12-01T19:22:45Z"}}, 
+    "dateInstalled": {"type": "Property", "value": {"@type": "DateTime", "@value": "1971-12-01T19:22:45Z"}},
+    "dateDecomissioned": {"type": "Property", "value": {"@type": "DateTime", "@value": "1974-12-01T19:22:45Z"}}, 
     "energyExtracted": {"type": "Property", "value": 490.3}, 
     "energyCharged": {"type": "Property", "value": 516.2}, 
     "voltage": {"type": "Property", "value": 753.1}, 
     "current": {"type": "Property", "value": 329.0}, 
     "currentCapacity": {"type": "Property", "value": 229.9}, 
     "originalCapacity": {"type": "Property", "value": 227.3}, 
-    "resistance": {"type": "Property", "value": 162.1}, '
+    "resistance": {"type": "Property", "value": 162.1},
     "remainingCapacity": {"type": "Property", "value": 995.4}, 
     "remainingCharge": {"type": "Property", "value": 460.7}, 
     "@context": ["https://smartdatamodels.org/context.jsonld"]

@@ -28,6 +28,11 @@
             "format": "date-time",
             "description": "Property. Model:'http://schema.org/DateTime'. The date installed to battery pack or Device"
           },
+          "dateDecomissioned": {
+            "type": "string",
+            "format": "date-time",
+            "description": "Property. Model:'http://schema.org/DateTime'. The date when cell was decomissioned"
+          },
           "energyExtracted": {
             "type": "number",
             "minimum": 0,
